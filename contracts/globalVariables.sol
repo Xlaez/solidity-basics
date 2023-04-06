@@ -13,14 +13,14 @@ contract GlobalVariables{
     uint256 public nowOn;
     address public origin;
     uint256 public gasPrice;
-    byte public callData;
+    bytes public callData;
     bytes4 public Firstfour;
 
     constructor(){
         // NOTE: msg.sender is the account address of the executer of the function
         owner = msg.sender;
         MyBlockHash = block.coinbase;
-        difficulty = block.difficulty;
+        difficulty = block.prevrandao;
         gasLimit = block.gaslimit;
         number = block.number;
         timestamp = block.timestamp;

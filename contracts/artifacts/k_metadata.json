@@ -1,0 +1,82 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "calculate",
+				"outputs": [
+					{
+						"internalType": "uint120",
+						"name": "product",
+						"type": "uint120"
+					},
+					{
+						"internalType": "uint120",
+						"name": "sum",
+						"type": "uint120"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "getResults",
+				"outputs": [
+					{
+						"internalType": "uint120",
+						"name": "",
+						"type": "uint120"
+					},
+					{
+						"internalType": "uint120",
+						"name": "",
+						"type": "uint120"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/keywords.sol": "k"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/keywords.sol": {
+			"keccak256": "0x9241c802c771c6dcbd4438a1fe281ddfa31102ad561c438746096a3272478de9",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://7a46e733e026bf879e16c7200e5ceb1f32f6fbda4b3758f7b5f462c8930b2e74",
+				"dweb:/ipfs/Qmc6NASVb5wiS7oHmK6PpTwuZ8Jcj3Ju3fVi4MxGeAn3nJ"
+			]
+		}
+	},
+	"version": 1
+}
