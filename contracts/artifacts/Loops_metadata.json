@@ -6,30 +6,13 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_ticketPrice",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "_value",
-						"type": "uint256"
-					}
-				],
-				"name": "buyTicket",
+				"inputs": [],
+				"name": "doWhileLoop",
 				"outputs": [
 					{
-						"internalType": "uint256",
-						"name": "ticketId",
-						"type": "uint256"
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
 					}
 				],
 				"stateMutability": "nonpayable",
@@ -37,15 +20,28 @@
 			},
 			{
 				"inputs": [],
-				"name": "getAmount",
+				"name": "forLoop",
 				"outputs": [
 					{
-						"internalType": "uint256",
+						"internalType": "uint256[]",
 						"name": "",
-						"type": "uint256"
+						"type": "uint256[]"
 					}
 				],
-				"stateMutability": "view",
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "whileLoop",
+				"outputs": [
+					{
+						"internalType": "uint256[]",
+						"name": "",
+						"type": "uint256[]"
+					}
+				],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -62,7 +58,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/eventOrg.sol": "EventTicket"
+			"contracts/loops.sol": "Loops"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -76,12 +72,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/eventOrg.sol": {
-			"keccak256": "0x4cbcc6462587aad6737c77090b115f26792cbcfa01641524e3ad1d1a537fd320",
+		"contracts/loops.sol": {
+			"keccak256": "0xdcb8288a3f429497d5ac5841f67399b3e3feee6c4d0b31e230af7024a51c051b",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://86d60e42f5d2dba8c65f40a25e84ca7492cc72975e7bce4bd798db80d7b85160",
-				"dweb:/ipfs/QmPCMtvXyM5hoW39dkCbbDp2ETmxERGVKbCavGZzhdyjbn"
+				"bzz-raw://ab1b5ebf4c4c832f09a6805555f19a04729e9805b37be03a018abcecdfc5eb44",
+				"dweb:/ipfs/QmYhN7cjszEWHEbs3TepbaS7cCQ1KGq2JuRZAzBGEE5ouT"
 			]
 		}
 	},
