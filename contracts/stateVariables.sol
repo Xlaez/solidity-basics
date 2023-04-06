@@ -9,4 +9,9 @@ contract StateVariable{
     bytes public defByte = "default byte";
 
     uint256[] public unsignedNumbers;
+
+    constructor(string memory _myStr, string memory _myStr2){
+        myStr = _myStr;
+        myStr2 = _myStr2;
+    }
 }
