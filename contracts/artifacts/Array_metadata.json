@@ -8,66 +8,17 @@
 			{
 				"inputs": [
 					{
-						"internalType": "string",
-						"name": "_myStr",
-						"type": "string"
-					},
-					{
-						"internalType": "string",
-						"name": "_myStr2",
-						"type": "string"
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
 					}
 				],
-				"stateMutability": "nonpayable",
-				"type": "constructor"
-			},
-			{
-				"inputs": [],
-				"name": "defByte",
+				"name": "arr",
 				"outputs": [
 					{
-						"internalType": "bytes",
+						"internalType": "uint256",
 						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myStr",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myStr2",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myStr3",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
+						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -81,7 +32,26 @@
 						"type": "uint256"
 					}
 				],
-				"name": "unsignedNumbers",
+				"name": "arr2",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "fixedSizeArr",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -106,7 +76,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/stateVariables.sol": "StateVariable"
+			"contracts/array.sol": "Array"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -120,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/stateVariables.sol": {
-			"keccak256": "0x1134434e6f2e0a4d85989cf53a16ecda5418799b3a237c3a00533c5cf115cf80",
+		"contracts/array.sol": {
+			"keccak256": "0x9d10e28777b3f7b5f652b03248913e15167872137dac7e458f0d90dcd806aa06",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d0143d0f83b02a85b906fe88e83baaf4ab00e8a27b565d81c5ed4f3fb619c5dc",
-				"dweb:/ipfs/QmbxKU8dq9PUqnzvRyQDkguD2GpuAYz9Z8yJbaJY765xYk"
+				"bzz-raw://8187168fec172420ec01220d6523e10410a52708f633e14667a66827ea93e427",
+				"dweb:/ipfs/QmVdBmcfYTGV7A91VQEiFbk1yjPxU5UWGv2tdSJgAWjpsZ"
 			]
 		}
 	},

@@ -9,12 +9,12 @@
 				"inputs": [
 					{
 						"internalType": "string",
-						"name": "_myStr",
+						"name": "_name",
 						"type": "string"
 					},
 					{
 						"internalType": "string",
-						"name": "_myStr2",
+						"name": "_text",
 						"type": "string"
 					}
 				],
@@ -23,20 +23,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "defByte",
-				"outputs": [
-					{
-						"internalType": "bytes",
-						"name": "",
-						"type": "bytes"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myStr",
+				"name": "name",
 				"outputs": [
 					{
 						"internalType": "string",
@@ -49,44 +36,12 @@
 			},
 			{
 				"inputs": [],
-				"name": "myStr2",
+				"name": "text",
 				"outputs": [
 					{
 						"internalType": "string",
 						"name": "",
 						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "myStr3",
-				"outputs": [
-					{
-						"internalType": "string",
-						"name": "",
-						"type": "string"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"name": "unsignedNumbers",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
 					}
 				],
 				"stateMutability": "view",
@@ -106,7 +61,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/stateVariables.sol": "StateVariable"
+			"contracts/inheritance.sol": "C"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -120,12 +75,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/stateVariables.sol": {
-			"keccak256": "0x1134434e6f2e0a4d85989cf53a16ecda5418799b3a237c3a00533c5cf115cf80",
+		"contracts/inheritance.sol": {
+			"keccak256": "0x12f4685d732b89d231a24857b2f17ea8c7a947be24f0c9fe261cf72d881d65b4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://d0143d0f83b02a85b906fe88e83baaf4ab00e8a27b565d81c5ed4f3fb619c5dc",
-				"dweb:/ipfs/QmbxKU8dq9PUqnzvRyQDkguD2GpuAYz9Z8yJbaJY765xYk"
+				"bzz-raw://78ec359eb34eabe1317c1ebe3f05fec375032751c8f162e5ed5b15ed9cb03be6",
+				"dweb:/ipfs/QmVhZzg4ARr12ChqU94yKP5Gp6mgMLgZBEYJjSKMxDPHAt"
 			]
 		}
 	},

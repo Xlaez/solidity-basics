@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "name",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "text",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/inheritance.sol": "B"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/inheritance.sol": {
+			"keccak256": "0x12f4685d732b89d231a24857b2f17ea8c7a947be24f0c9fe261cf72d881d65b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://78ec359eb34eabe1317c1ebe3f05fec375032751c8f162e5ed5b15ed9cb03be6",
+				"dweb:/ipfs/QmVhZzg4ARr12ChqU94yKP5Gp6mgMLgZBEYJjSKMxDPHAt"
+			]
+		}
+	},
+	"version": 1
+}
