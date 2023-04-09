@@ -6,14 +6,12 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_counter",
-						"type": "address"
-					}
-				],
-				"name": "getCount",
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,17 +23,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_counter",
-						"type": "address"
-					}
-				],
-				"name": "incrementCounter",
-				"outputs": [],
-				"stateMutability": "nonpayable",
-				"type": "function"
+				"stateMutability": "payable",
+				"type": "receive"
 			}
 		],
 		"devdoc": {
@@ -51,7 +40,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/interfaces.sol": "MyContract"
+			"contracts/sendingEther.sol": "ReceiveEther"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -65,12 +54,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/interfaces.sol": {
-			"keccak256": "0x61adee53e1b39cfaa2cc76e9776ae2be6aeaa56c1855c41a32eafe3e5a96cbec",
+		"contracts/sendingEther.sol": {
+			"keccak256": "0x9f6c9bd103bea04ef9f9a102943a302959886f478966929b3e0578d6a78916e9",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://3898f9768d1a50d685dd33b0fb0a9f8674981a14776e27bab605a6d44e369060",
-				"dweb:/ipfs/Qma6ia12npCvar9YMGVt3RZZLmH2Jm17kZr7eYxM5nG83E"
+				"bzz-raw://0bc819089a9b3122be26549f5b1c1690671c73f59516e0cff0c034d65ef20bcb",
+				"dweb:/ipfs/QmQoz988zxhMRDkrvmRXofCqSsifvxv3yUB2fizRkcfz3Z"
 			]
 		}
 	},

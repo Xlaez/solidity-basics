@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/library.sol": "Array"
+			"contracts/sendingEther.sol": "SendingEther"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/library.sol": {
-			"keccak256": "0x57a5cd7820500ec1b3a1dce2337d08640bfd4f80fadbc566c9f8160492bd104f",
+		"contracts/sendingEther.sol": {
+			"keccak256": "0xdb3603058a574b65eaec6d489dbef327dfbfe8d7a2d653bbe25d64da49d561dd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://250a804dd5a4129a9cdc3a525026fbe3685c71153325313f4242ffe8c235c0ca",
-				"dweb:/ipfs/Qmbn1RCrJDFM8Hc5nSDfCwRSvG3NGDMgRv3XTCjsszu9m5"
+				"bzz-raw://7039b24f75475394300b3e0067bfdf39bb30017e50816e8cd4ebaa0a8c40d11c",
+				"dweb:/ipfs/QmV6QzguSFvPokTurB78EVapKXxZ5TfjrJAKw8kQRzZ83r"
 			]
 		}
 	},

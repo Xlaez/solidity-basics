@@ -7,23 +7,29 @@
 		"abi": [
 			{
 				"inputs": [],
-				"name": "num",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "deposit",
+				"outputs": [],
+				"stateMutability": "payable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "sender",
+				"name": "notPayable",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "owner",
 				"outputs": [
 					{
-						"internalType": "address",
+						"internalType": "address payable",
 						"name": "",
 						"type": "address"
 					}
@@ -34,27 +40,26 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
-						"name": "_num",
+						"name": "_amount",
 						"type": "uint256"
 					}
 				],
-				"name": "setVars",
+				"name": "transfer",
 				"outputs": [],
-				"stateMutability": "payable",
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
 				"inputs": [],
-				"name": "value",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			}
 		],
@@ -66,13 +71,12 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
-			"notice": "Deploy this contract first",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/delegateCall.sol": "B"
+			"contracts/payable.sol": "Payable"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -86,12 +90,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/delegateCall.sol": {
-			"keccak256": "0x2976f4bbd825f3a375af1bbc6e75d2e25678e2c6d5d992ad1e17bc77e6bd2286",
+		"contracts/payable.sol": {
+			"keccak256": "0x119c851aaeceb1c548ec5248328ba7dfad9ac2a4ba6c9466592973bba2c7f19e",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://7f071e66a7cb0c196d23e51624eab828fe275f954df157bbb9a680d709d4c1d6",
-				"dweb:/ipfs/QmcVJz6tAjPH2azbXCbSq4GD4iV4nep8KMz2ikCTBvkNFE"
+				"bzz-raw://4a392f80a6c8dce55b0a6087e9857d4b102b74bc5eb85e7ec43d3e09de858c2c",
+				"dweb:/ipfs/Qmcwme2mhmBBuVkFRXqhYJxU3zfrV825LRy7nBQUmeKdRH"
 			]
 		}
 	},

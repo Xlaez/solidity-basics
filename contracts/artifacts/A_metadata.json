@@ -34,6 +34,11 @@
 			{
 				"inputs": [
 					{
+						"internalType": "address",
+						"name": "_contract",
+						"type": "address"
+					},
+					{
 						"internalType": "uint256",
 						"name": "_num",
 						"type": "uint256"
@@ -66,13 +71,12 @@
 		"userdoc": {
 			"kind": "user",
 			"methods": {},
-			"notice": "Deploy this contract first",
 			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/delegateCall.sol": "B"
+			"contracts/delegateCall.sol": "A"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

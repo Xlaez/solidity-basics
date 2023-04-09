@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/library.sol": "Array"
+			"contracts/delegateCall.sol": "DelegateCall"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/library.sol": {
-			"keccak256": "0x57a5cd7820500ec1b3a1dce2337d08640bfd4f80fadbc566c9f8160492bd104f",
+		"contracts/delegateCall.sol": {
+			"keccak256": "0x7dee68564fcf3c72a2308624645526b33c891f6baca4eb1a71ae8357fe8f0aff",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://250a804dd5a4129a9cdc3a525026fbe3685c71153325313f4242ffe8c235c0ca",
-				"dweb:/ipfs/Qmbn1RCrJDFM8Hc5nSDfCwRSvG3NGDMgRv3XTCjsszu9m5"
+				"bzz-raw://f5128aabd1b840dc6c3d5a339e4ed254e8ee9ceaab7bc6d8f08f0b1cda1e0c1e",
+				"dweb:/ipfs/Qmb5QAe4qTaz3fkQ92M8CkJa1JVbJMBgsw5uGaZfQyZ7Tx"
 			]
 		}
 	},

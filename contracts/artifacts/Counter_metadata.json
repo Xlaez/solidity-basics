@@ -6,14 +6,8 @@
 	"output": {
 		"abi": [
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_counter",
-						"type": "address"
-					}
-				],
-				"name": "getCount",
+				"inputs": [],
+				"name": "count",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -25,14 +19,8 @@
 				"type": "function"
 			},
 			{
-				"inputs": [
-					{
-						"internalType": "address",
-						"name": "_counter",
-						"type": "address"
-					}
-				],
-				"name": "incrementCounter",
+				"inputs": [],
+				"name": "increment",
 				"outputs": [],
 				"stateMutability": "nonpayable",
 				"type": "function"
@@ -51,7 +39,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/interfaces.sol": "MyContract"
+			"contracts/interfaces.sol": "Counter"
 		},
 		"evmVersion": "paris",
 		"libraries": {},

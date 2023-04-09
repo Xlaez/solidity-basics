@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/library.sol": "Array"
+			"contracts/interfaces.sol": "UniswapV"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/library.sol": {
-			"keccak256": "0x57a5cd7820500ec1b3a1dce2337d08640bfd4f80fadbc566c9f8160492bd104f",
+		"contracts/interfaces.sol": {
+			"keccak256": "0xd802b4f80c4014078311bc3256bab0ea2117b5622ed346f04e74871847c654c4",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://250a804dd5a4129a9cdc3a525026fbe3685c71153325313f4242ffe8c235c0ca",
-				"dweb:/ipfs/Qmbn1RCrJDFM8Hc5nSDfCwRSvG3NGDMgRv3XTCjsszu9m5"
+				"bzz-raw://623de819ed99878c700fa10484f314d09899fe86691564d70d2c8d440c5e92fe",
+				"dweb:/ipfs/QmVa2g5tBmaZfo3PUxowmvxEJSox7KaWJrvDuBsy5nPjK5"
 			]
 		}
 	},
