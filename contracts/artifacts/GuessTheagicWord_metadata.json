@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/abiEncode.sol": "Name"
+			"contracts/hashFunc.sol": "GuessTheagicWord"
 		},
 		"evmVersion": "paris",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/abiEncode.sol": {
-			"keccak256": "0x1424893dddfcd9c19b2f101efec15108017fbad1ef7ed5314a966d4ed3763d93",
+		"contracts/hashFunc.sol": {
+			"keccak256": "0x8ffa8d67491310af0bd7e9afccc618b044ae97fa3d227f7f367b8ce519b4f762",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0569da6dc82c89ef40c979c477e71855a8290fd38b04629fa943dec19e809732",
-				"dweb:/ipfs/QmUWLoafpAvRpjRqc8i3mCTLQKQJRkTPZjXAeMVaBKDmPi"
+				"bzz-raw://7aa79809d3a441d212358a6a82e5b11e3d425059205d4e69708c6924925196a5",
+				"dweb:/ipfs/QmdufprzVwmMcCifAbkghpfcNbHqjXQRNjqxh5rcuDzdzo"
 			]
 		}
 	},
